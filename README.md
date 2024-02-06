@@ -1,4 +1,4 @@
-### npm
+Please visit [purpleCat-GPT-app](https://purplecat-gpt-sooty.vercel.app/)
 
 ### npm
 
@@ -26,9 +26,3 @@ npm i openai
 3. Run prisma db pull to turn your database schema into a Prisma schema.
 4. Run prisma generate to generate the Prisma Client. You can then start querying your database.
 ```
-
-### npm
-
-### npm
-
-### npm
