@@ -11,13 +11,13 @@ const HomePage = () => {
     <div className='hero-content text-center'>
      {" "}
      <div className='max-w-md'>
-      <h1 className='text-6xl text-primary font-bold'>
+      <h1 className='text-4xl text-primary font-bold'>
        {" "}
        <Image
         src='/cat1.png'
         width={300}
         height={300}
-        className='mx-auto mb-4'
+        className='mx-auto mb-6'
        />{" "}
        PurpleCat GPT
       </h1>
@@ -26,7 +26,7 @@ const HomePage = () => {
        Unlock the power of AI with our language companion. Enhanced
        conversations, content creation, and beyond, all powered by OpenAI!{" "}
       </p>{" "}
-      <Link href='/chat' className='btn btn-secondary'>
+      <Link href='/chat' className='btn btn-secondary mb-12'>
        Get Started
       </Link>
      </div>{" "}
