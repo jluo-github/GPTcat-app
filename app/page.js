@@ -17,16 +17,16 @@ const HomePage = () => {
         src='/cat1.png'
         width={300}
         height={300}
-        className='mx-auto mb-6'
+        className='mx-auto mb-16'
        />{" "}
        PurpleCat GPT
       </h1>
-      <p className='py-4 text-md leading-loose'>
+      <p className='py-6 text-md leading-loose'>
        {" "}
        Unlock the power of AI with our language companion. Enhanced
        conversations, content creation, and beyond, all powered by OpenAI!{" "}
       </p>{" "}
-      <Link href='/chat' className='btn btn-secondary mb-12'>
+      <Link href='/chat' className='btn btn-secondary mb-28'>
        Get Started
       </Link>
      </div>{" "}
