@@ -47,7 +47,7 @@ const Chat = () => {
  //  console.log(messages);
 
  return (
-  <div className='min-h-[calc(100vh-6rem)] grid grid-rows-[1fr,auto] '>
+  <div className='min-h-[calc(100vh-10rem)] grid grid-rows-[1fr,auto] '>
    {/* response */}
    <div>
     {" "}
