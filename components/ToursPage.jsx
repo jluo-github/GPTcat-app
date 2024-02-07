@@ -20,7 +20,7 @@ const ToursPage = () => {
     <div className='join w-full'>
      <input
       type='text'
-      placeholder='enter city or country'
+      placeholder='Enter City or Country'
       className='input input-bordered join-item w-full'
       value={searchValue}
       onChange={() => setSearchValue(e.target.value)}
@@ -31,7 +31,7 @@ const ToursPage = () => {
       type='button'
       disabled={isPending}
       onClick={() => setSearchValue("")}>
-      {isPending ? "pending" : "reset"}
+      {isPending ? "Pending" : "Reset"}
      </button>
     </div>
    </form>

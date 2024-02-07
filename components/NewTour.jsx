@@ -64,14 +64,14 @@ const NewTour = () => {
 
  return (
   <>
-   <form onSubmit={handleSubmit} className='max-w-2xl'>
-    <h2 className='mb-4'>Select destination</h2>
+   <form onSubmit={handleSubmit} className='max-w-2xl mt-2'>
+    <h2 className='mb-4'>Select Destination</h2>
 
     <div className='join w-full'>
      <input
       type='text'
       className='input input-bordered join-item w-full'
-      placeholder='city'
+      placeholder='City'
       name='city'
       required
      />
@@ -79,13 +79,13 @@ const NewTour = () => {
      <input
       type='text'
       className='input input-bordered join-item w-full'
-      placeholder='country'
+      placeholder='Country'
       name='country'
       required
      />
 
      <button className='btn btn-primary join-item' type='submit'>
-      generate tour
+      Generate Tour
      </button>
     </div>
    </form>

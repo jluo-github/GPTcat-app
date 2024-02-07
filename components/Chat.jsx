@@ -45,6 +45,7 @@ const Chat = () => {
  };
 
  //  console.log(messages);
+ const catIcon = "/cat1.ico";
 
  return (
   <div className='min-h-[calc(100vh-10rem)] grid grid-rows-[1fr,auto] '>
@@ -52,7 +53,7 @@ const Chat = () => {
    <div>
     {" "}
     {messages.map(({ role, content }, index) => {
-     const avatar = role == "user" ? "👤" : "🤖";
+     const avatar = role == "user" ? " 👤 " : " 🐱 ";
      const bcg = role == "user" ? "bg-base-200" : "bg-base-100";
 
      return (
