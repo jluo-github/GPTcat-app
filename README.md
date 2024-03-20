@@ -1,4 +1,17 @@
-Please visit [purpleCat-GPT-app](https://purplecat-gpt-sooty.vercel.app/)
+Please visit [purpleCat-GPT-app](https://purplecat-gpt-sooty.vercel.app/) for more details.
+
+## Skills or Tools Used:
+
+- **OpenAI**: Utilized for AI-powered features and capabilities.
+- **Tanstack/React-Query**: Integrated for efficient data fetching and state management.
+- **Clerk/Next.js**: Utilized for authentication and user management features.
+- **Prisma/Prisma Client**: Used for database operations and management.
+- **Axios**: Used for making HTTP requests to external APIs.
+- **React-Hot-Toast**: Integrated for toast notifications in the frontend.
+- **React-Icons**: Used for adding icons to the user interface.
+- **Tailwind CSS**: Used for styling and designing the user interface components.
+- **Tailwind CSS Typography**: Integrated for typography styles in Tailwind CSS.
+- **DaisyUI**: Used for additional UI components and utilities in Tailwind CSS.
 
 ### npm
 
