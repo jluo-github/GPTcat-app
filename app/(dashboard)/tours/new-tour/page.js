@@ -5,7 +5,7 @@ import {
 } from "@tanstack/react-query";
 import NewTour from "@/components/NewTour";
 
-export const fetchCache = "force-no-store";
+// export const fetchCache = "force-no-store";
 
 const NewTourPage = () => {
  const queryClient = new QueryClient();

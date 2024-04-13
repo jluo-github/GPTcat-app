@@ -6,7 +6,7 @@ import {
   QueryClient,
 } from "@tanstack/react-query";
 
-export const fetchCache = "force-no-store";
+// export const fetchCache = "force-no-store";
 
 const ChatPage = () => {
   const queryClient = new QueryClient();
