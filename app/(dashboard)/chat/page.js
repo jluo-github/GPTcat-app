@@ -1,20 +1,22 @@
 import Chat from "@/components/Chat";
 import React from "react";
 import {
- dehydrate,
- HydrationBoundary,
- QueryClient,
+  dehydrate,
+  HydrationBoundary,
+  QueryClient,
 } from "@tanstack/react-query";
 
-const ChatPage = () => {
- const queryClient = new QueryClient();
+export const fetchCache = "force-no-store";
 
- return (
-  // setup queryClient:
-  <HydrationBoundary state={dehydrate(queryClient)}>
-   <Chat />
-  </HydrationBoundary>
- );
+const ChatPage = () => {
+  const queryClient = new QueryClient();
+
+  return (
+    // setup queryClient:
+    <HydrationBoundary state={dehydrate(queryClient)}>
+      <Chat />
+    </HydrationBoundary>
+  );
 };
 
 export default ChatPage;

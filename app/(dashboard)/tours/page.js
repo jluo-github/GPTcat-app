@@ -7,6 +7,9 @@ import {
 import ToursPage from "@/components/ToursPage";
 import { getAllTours } from "@/utils/action";
 
+
+export const fetchCache = "force-no-store";
+
 const AllToursPage = async () => {
  const queryClient = new QueryClient();
 

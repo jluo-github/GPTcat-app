@@ -5,6 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 import axios from "axios";
+
+export const fetchCache = "force-no-store";
+
 const url = `https://api.unsplash.com/search/photos?client_id=${process.env.UNSPLASH_API_KEY}&query=`;
 
 const SingleTourPage = async ({ params }) => {
