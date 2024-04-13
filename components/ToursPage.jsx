@@ -23,7 +23,7 @@ const ToursPage = () => {
       placeholder='Enter City or Country'
       className='input input-bordered join-item w-full'
       value={searchValue}
-      onChange={() => setSearchValue(e.target.value)}
+      onChange={(e) => setSearchValue(e.target.value)}
       required
      />
      <button
