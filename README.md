@@ -1,4 +1,4 @@
-Please visit [purpleCat-GPT-app](https://purplecat-gpt-sooty.vercel.app/) for more details.
+Please visit [purpleCat-GPT-app](https://pruplecat-gpt-app.vercel.app) for more details.
 
 ## Skills or Tools Used:
 
