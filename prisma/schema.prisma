@@ -12,7 +12,7 @@ datasource db {
 
 }
 
-
+//purplecat gpt app:
 model Tour{
   id String @id @default(uuid())
   createdAt DateTime @default(now())
@@ -27,8 +27,21 @@ model Tour{
 
 }
 
+//purplecat gpt app:
 model Token{
   clerkId String @id
   tokens Int @default (10000)
 }
 
+// purplecat task app
+model task{
+  id String @id @default(uuid())
+  clerkId   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  title    String
+  note   String
+  location  String
+  status      String
+  mode     String
+}
