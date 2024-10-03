@@ -2,16 +2,14 @@ Please visit [purpleCat-GPT-app](https://purplecat-gpt-app.vercel.app/) for more
 
 ## Skills or Tools Used:
 
+- **Next.js:** Used for server-side rendering and routing.
+- **React:** Used for building the frontend of the website.
+- **Tailwind CSS**: Used for styling and designing the user interface components.
+- **DaisyUI**: Used for additional UI components and utilities in Tailwind CSS.
+- **Prisma**: Used for database operations and management.    
 - **OpenAI**: Utilized for AI-powered features and capabilities.
 - **Tanstack/React-Query**: Integrated for efficient data fetching and state management.
-- **Clerk/Next.js**: Utilized for authentication and user management features.
-- **Prisma/Prisma Client**: Used for database operations and management.
-- **Axios**: Used for making HTTP requests to external APIs.
-- **React-Hot-Toast**: Integrated for toast notifications in the frontend.
-- **React-Icons**: Used for adding icons to the user interface.
-- **Tailwind CSS**: Used for styling and designing the user interface components.
-- **Tailwind CSS Typography**: Integrated for typography styles in Tailwind CSS.
-- **DaisyUI**: Used for additional UI components and utilities in Tailwind CSS.
+- **Clerk**: Utilized for authentication and user management features.
 
 ### npm
 
