@@ -17,10 +17,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | PurpleCat-GPT-App",
-    default: "PurpleCat-GPT-App",
+    template: "%s | GPTcat-App",
+    default: "GPTcat-App",
   },
-  description: "PurpleCat-GPT-App: A GPT-4 powered chatbot",
+  description: "GPTcat-App: A GPT-4 powered chatbot",
 };
 
 export default function RootLayout({
@@ -35,8 +35,7 @@ export default function RootLayout({
           <link
             rel='icon'
             href='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
-            <text y=%22.9em%22 font-size=%2290%22> 💟🩵</text>
-       
+            <text y=%22.9em%22 font-size=%2290%22> 💟</text>
             </svg>'
           />
         </head>

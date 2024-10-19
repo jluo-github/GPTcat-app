@@ -2,6 +2,10 @@ import Tours from "@/components/Tours";
 import { dehydrate, HydrationBoundary, QueryClient } from "@tanstack/react-query";
 import { getAllTours } from "@/utils/actions";
 
+export const metadata = {
+  title: "Tours",
+};
+
 const ToursPage = async ({ searchParams }: { searchParams: { searchTerm: string } }) => {
   const queryClient = new QueryClient();
   await queryClient.prefetchQuery({

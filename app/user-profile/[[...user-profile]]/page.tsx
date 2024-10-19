@@ -2,8 +2,10 @@ import { UserProfile } from "@clerk/nextjs";
 import Link from "next/link";
 import { fetchOrCreateTokens } from "@/utils/actions";
 import { auth } from "@clerk/nextjs/server";
-import { redirect } from "next/navigation";
-import { before } from "node:test";
+
+export const metadata = {
+  title: "Profile",
+};
 
 const UserProfilePage = async () => {
   const { userId } = auth();
