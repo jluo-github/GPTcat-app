@@ -1,4 +1,4 @@
-Please visit [PurpleCat-GPT-app](https://purplecat-gpt-app.vercel.app/) for more details.
+Please visit [GPTcat-app](https://purplecat-gpt-app.vercel.app/) for more details.
 
 ## Skills or Tools Used:
 
@@ -18,13 +18,6 @@ Please visit [PurpleCat-GPT-app](https://purplecat-gpt-app.vercel.app/) for more
 
 ```
 npm i -D daisyui@latest
-
-```
-
-### next-themes
-
-```
-npm i next-themes
 
 ```
 
