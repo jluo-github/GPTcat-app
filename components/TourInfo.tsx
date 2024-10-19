@@ -1,7 +1,7 @@
 import type { TourType } from "@/utils/actions";
 
 const TourInfo = ({ tour }: { tour: TourType }) => {
-  console.log("tour", tour);
+  // console.log("tour", tour);
   const { title, description, stops } = tour;
 
   return (
